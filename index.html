@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DucTuan - Nhà phát triển ứng dụng mobile</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Notifications CSS -->
+    <link rel="stylesheet" href="notification.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>DucTuan</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Trang chủ</a>
+                <a href="#about" class="nav-link">Giới thiệu</a>
+                <a href="#apps" class="nav-link">Ứng dụng</a>
+                <a href="#desktop-tools" class="nav-link">Tools</a>
+                <a href="#tutorials" class="nav-link">Hướng dẫn</a>
+                <a href="#contact" class="nav-link">Liên hệ</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <h1 class="hero-title">Nguyễn Văn Đức Tuân</h1>
+                    <p class="hero-subtitle">Nhà phát triển ứng dụng Android & Desktop Tools</p>
+                    <div class="hero-info">
+                        <p><i class="fas fa-graduation-cap"></i> Đại học Công nghiệp Hồ Chí Minh</p>
+                        <p><i class="fas fa-code"></i> Chuyên gia phát triển ứng dụng di động</p>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#apps" class="btn btn-primary">Xem dự án</a>
+                        <a href="#contact" class="btn btn-outline">Liên hệ</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748245831/peson_vta2hl.jpg" alt="Nguyễn Văn Đức Tuân">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Giới thiệu bản thân -->
+    <section id="about">
+        <div class="container">
+            <h2>Giới thiệu</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Xin chào! Tôi là Nguyễn Văn Đức Tuân</h3>
+                    <p>Một nhà phát triển ứng dụng Android đam mê với công nghệ và giải pháp phần mềm. Tôi hiện đang theo học tại <strong>Đại học Công nghiệp Hồ Chí Minh</strong>, nơi tôi không ngừng trau dồi kiến thức và kỹ năng lập trình.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Họ tên:</strong> Nguyễn Văn Đức Tuân</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span><strong>SĐT:</strong> 0383943756</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><strong>Email:</strong> tuangato147@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>Trường:</strong> Đại học Công nghiệp Hồ Chí Minh</span>
+                        </div>
+                    </div>
+                    
+                    <p>Tôi chuyên phát triển các ứng dụng tiện ích, đặc biệt là các ứng dụng hỗ trợ học tập và công cụ tính toán, đôi khi là ứng dụng hỗ trợ đời sống. Ngoài ra, tôi cũng phát triển các tools desktop giúp tối ưu hóa công việc hàng ngày.</p>
+                    
+                    <p>Hãy khám phá các dự án của tôi bên dưới và liên hệ nếu bạn có bất kỳ ý tưởng cho ứng dụng android nào hoặc câu hỏi nào!</p>
+                </div>
+                <div class="about-image">
+                    <!-- Thay thế bằng ảnh của bạn -->
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748245831/peson_vta2hl.jpg" alt="DucTuan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ứng dụng -->
+    <section id="apps">
+        <div class="container">
+            <h2>Ứng dụng của tôi</h2>
+            
+            <!-- Ứng dụng Giải ma trận -->
+            <div class="app-card">
+                <div class="app-icon">
+                    <!-- Thay thế bằng icon của ứng dụng -->
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748245952/Logo_%E1%BB%A9ng_d%E1%BB%A5ng__Gi%E1%BA%A3i_ma_tr%E1%BA%ADn__hcn0hl.png" alt="Giải ma trận Icon">
+                </div>
+                <div class="app-details">
+                    <h3>Giải ma trận</h3>
+                    <p>Ứng dụng giúp giải quyết các bài toán ma trận một cách nhanh chóng và chính xác. Hỗ trợ nhiều phép tính như nghịch đảo ma trận, định thức, hạng ma trận và giải hệ phương trình tuyến tính.</p>
+                    <div class="app-features">
+                        <span><i class="fas fa-check-circle"></i> Giao diện đơn giản, dễ sử dụng</span>
+                        <span><i class="fas fa-check-circle"></i> Hỗ trợ ma trận kích thước lớn</span>
+                        <span><i class="fas fa-check-circle"></i> Lưu lịch sử tính toán</span>
+                        <span><i class="fas fa-check-circle"></i> Không cần kết nối internet</span>
+                    </div>
+                    <div class="app-links">
+                        <a href="https://github.com/Ductuan2312/matran/releases/tag/v1.0" class="download-btn">
+                            <i class="fab fa-github"></i> Tải từ GitHub
+                        </a>
+                        <a href="https://apkpure.com/p/com.example.matran" target="_blank" class="download-btn apkpure">
+                            <i class="fas fa-download"></i> Tải từ APKPure
+                        </a>
+                        <a href="#" class="download-btn google-play" onclick="showGooglePlayAlert(event)">
+                            <i class="fab fa-google-play"></i> Google Play
+                        </a>
+                    </div>
+                </div>
+                <div class="app-screenshots">
+                    <!-- Screenshots của ứng dụng Giải ma trận -->
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246938/1_q4um8k.jpg" alt="Screenshot 1">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246938/2_rfgurd.jpg" alt="Screenshot 2">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246938/3_tjwtzd.jpg" alt="Screenshot 3">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246938/4_etc4zt.jpg" alt="Screenshot 4">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246938/5_ufnoou.jpg" alt="Screenshot 5">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246938/6_fmzxob.jpg" alt="Screenshot 6">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246939/7_ivgoac.jpg" alt="Screenshot 7">
+                    <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748246937/8_nxsnhp.jpg" alt="Screenshot 8">
+                </div>
+            </div>
+
+            <!-- Có thể thêm nhiều ứng dụng khác ở đây -->
+            
+        </div>
+    </section>
+
+    <!-- Tools cho Laptop -->
+    <section id="desktop-tools">
+        <div class="container">
+            <h2>Tools dành cho Laptop/Desktop</h2>
+            <p class="section-description">Các công cụ tiện ích giúp tối ưu hóa công việc hàng ngày trên máy tính của bạn</p>
+            
+            <!-- Tool Unlock PDF -->
+            <div class="tool-card">
+                <div class="tool-icon">
+                    <i class="fas fa-unlock-alt"></i>
+                </div>
+                <div class="tool-details">
+                    <h3>Unlock PDF</h3>
+                    <p>Công cụ mở khóa file PDF bị bảo vệ bằng mật khẩu. Giúp bạn dễ dàng truy cập và chỉnh sửa các tài liệu PDF đã bị khóa mà không cần nhập mật khẩu phức tạp.</p>
+                    <div class="tool-features">
+                        <span><i class="fas fa-check-circle"></i> Mở khóa PDF nhanh chóng</span>
+                        <span><i class="fas fa-check-circle"></i> Giao diện đơn giản, thân thiện</span>
+                        <span><i class="fas fa-check-circle"></i> Hỗ trợ nhiều định dạng PDF</span>
+                        <span><i class="fas fa-check-circle"></i> Không cần cài đặt phức tạp</span>
+                    </div>
+                    <div class="tool-links">
+                        <a href="https://drive.google.com/file/d/1fgT5jZpPGNngMsT9gF6rScUjvVosl1hx/view?usp=sharing" target="_blank" class="download-btn drive">
+                            <i class="fab fa-google-drive"></i> Tải từ Google Drive
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tool Nén ảnh -->
+            <div class="tool-card">
+                <div class="tool-icon">
+                    <i class="fas fa-compress-alt"></i>
+                </div>
+                <div class="tool-details">
+                    <h3>Nén ảnh</h3>
+                    <p>Công cụ nén ảnh thông minh giúp giảm dung lượng file ảnh mà vẫn giữ được chất lượng tốt. Tiết kiệm không gian lưu trữ và tăng tốc độ tải ảnh trên web.</p>
+                    <div class="tool-features">
+                        <span><i class="fas fa-check-circle"></i> Nén ảnh giữ chất lượng cao</span>
+                        <span><i class="fas fa-check-circle"></i> Hỗ trợ nhiều định dạng (JPG, PNG, WebP)</span>
+                        <span><i class="fas fa-check-circle"></i> Xử lý hàng loạt</span>
+                        <span><i class="fas fa-check-circle"></i> Tốc độ xử lý nhanh</span>
+                    </div>
+                    <div class="tool-links">
+                        <a href="https://drive.google.com/file/d/1ZY1dGAAvw-UQcPs5L_Izq3PC-BeHUH_B/view?usp=drive_link" target="_blank" class="download-btn drive">
+                            <i class="fab fa-google-drive"></i> Tải từ Google Drive
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Video hướng dẫn -->
+    <section id="tutorials">
+        <div class="container">
+            <h2>Hướng dẫn sử dụng</h2>
+            <div class="video-container">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <h3>Hướng dẫn sử dụng App Giải ma trận</h3>
+                    <div class="youtube-embed">
+                        <!-- Thay thế VIDEO_ID_1 bằng ID video YouTube của bạn -->
+                        <div class="placeholder-video">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube" class="youtube-logo">
+                            <p>Video hướng dẫn đang được cập nhật</p>
+                            <span class="coming-soon-badge">Sắp ra mắt</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <h3>Hướng dẫn cài đặt cho mọi đường link tải</h3>
+                    <div class="youtube-embed">
+                        <!-- đang cập nhật-->
+                        <div class="placeholder-video">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube" class="youtube-logo">
+                            <p>Video hướng dẫn đang được cập nhật</p>
+                            <span class="coming-soon-badge">Sắp ra mắt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Liên hệ -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Liên hệ với tôi</h2>
+            <p class="dancing-text">Hãy kết nối và chia sẻ ý tưởng cùng nhau!</p>
+            
+            <div class="contact-content">
+                <!-- Contact Information Card -->
+                <div class="contact-info-card">
+                    <div class="contact-header">
+                        <div class="contact-avatar">
+                            <img src="https://res.cloudinary.com/dzp9tczql/image/upload/v1748245831/peson_vta2hl.jpg" alt="Nguyễn Văn Đức Tuân">
+                        </div>
+                        <div class="contact-details">
+                            <h3>Nguyễn Văn Đức Tuân</h3>
+                            <p>Android Developer</p>
+                            <p class="university">Đại học Công nghiệp TP.HCM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="label">Email</span>
+                                <a href="mailto:tuangato147@gmail.com">tuangato147@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="label">Điện thoại</span>
+                                <a href="tel:0383943756">0383943756</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="label">Địa chỉ</span>
+                                <span>TP. Hồ Chí Minh, Việt Nam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Contact Form -->
+                <div class="contact-form-card">
+                    <h3>Gửi tin nhắn nhanh</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Họ và tên" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email của bạn" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Chủ đề">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Nội dung tin nhắn..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Gửi tin nhắn
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-section">
+                <h3>Kết nối với tôi</h3>
+                <div class="social-links-grid">
+                    <a href="https://github.com/Ductuan2312" target="_blank" class="social-btn github" data-social="github">
+                        <div class="btn-content">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    
+                    <a href="mailto:tuangato147@gmail.com?subject=Liên hệ từ website DucTuan&body=Xin chào Đức Tuân,%0D%0A%0D%0ATôi muốn liên hệ với bạn về: " class="social-btn email" data-social="email">
+                        <div class="btn-content">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    
+                    <a href="tel:0383943756" class="social-btn phone" data-social="phone">
+                        <div class="btn-content">
+                            <i class="fas fa-phone"></i>
+                            <span>Điện thoại</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    
+                    <a href="https://zalo.me/0383943756" target="_blank" class="social-btn zalo" data-social="zalo">
+                        <div class="btn-content">
+                            <i class="fas fa-comments"></i>
+                            <span>Zalo</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    
+                    <a href="https://www.facebook.com/uctuan.405568" target="_blank" class="social-btn facebook" data-social="facebook">
+                        <div class="btn-content">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                    
+                    <a href="#" onclick="alert('Hiện tại chưa dùng Telegram, hãy liên hệ bằng các cách còn lại!'); return false;" class="social-btn telegram" data-social="telegram">
+                        <div class="btn-content">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Stats -->
+            <div class="contact-stats" style="display: grid !important; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important; gap: 0.8rem !important; margin: 1.5rem 0 !important; padding: 0 0.8rem !important;">
+                <div class="stat-item" style="background: rgba(102, 126, 234, 0.95) !important; padding: 0.7rem 0.5rem !important; border-radius: 12px !important; text-align: center !important; color: white !important; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08) !important; transition: all 0.3s ease !important;">
+                    <i class="fas fa-clock" style="font-size: 1.2rem !important; margin-bottom: 0.3rem !important; display: block !important;"></i>
+                    <div>
+                        <span class="stat-number" style="display: block !important; font-size: 1.1rem !important; font-weight: 700 !important; margin-bottom: 0.1rem !important;">24/7</span>
+                        <span class="stat-label" style="display: block !important; font-size: 0.7rem !important; font-weight: 500 !important;">Sẵn sàng hỗ trợ</span>
+                    </div>
+                </div>
+                <div class="stat-item" style="background: rgba(255, 107, 53, 0.95) !important; padding: 0.7rem 0.5rem !important; border-radius: 12px !important; text-align: center !important; color: white !important; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08) !important; transition: all 0.3s ease !important;">
+                    <i class="fas fa-reply" style="font-size: 1.2rem !important; margin-bottom: 0.3rem !important; display: block !important;"></i>
+                    <div>
+                        <span class="stat-number" style="display: block !important; font-size: 1.1rem !important; font-weight: 700 !important; margin-bottom: 0.1rem !important;">24h</span>
+                        <span class="stat-label" style="display: block !important; font-size: 0.7rem !important; font-weight: 500 !important;">Thời gian phản hồi</span>
+                    </div>
+                </div>
+                <div class="stat-item" style="background: rgba(52, 168, 83, 0.95) !important; padding: 0.7rem 0.5rem !important; border-radius: 12px !important; text-align: center !important; color: white !important; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08) !important; transition: all 0.3s ease !important;">
+                    <i class="fas fa-code" style="font-size: 1.2rem !important; margin-bottom: 0.3rem !important; display: block !important;"></i>
+                    <div>
+                        <span class="stat-number" style="display: block !important; font-size: 1.1rem !important; font-weight: 700 !important; margin-bottom: 0.1rem !important;">1+</span>
+                        <span class="stat-label" style="display: block !important; font-size: 0.7rem !important; font-weight: 500 !important;">Năm kinh nghiệm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ductuan23121. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact-stats-fix.js"></script>
+</body>
+</html>
